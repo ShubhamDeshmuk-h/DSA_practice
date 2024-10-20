@@ -3,6 +3,7 @@ inputlist = input()
 arr = inputlist.split()
 nums = list(arr)
 
+
 # Count of jumps
 count = 0
 
