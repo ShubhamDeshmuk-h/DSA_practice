@@ -10,7 +10,7 @@ for i in range(n):
             user_list[i] = user_list[j]
             user_list[j] = temp
 
-if user_list[1] == user_list[0] :
+if user_list[1] == user_list[0] and user_list[1] == user_list[2]:
     print("-1")
 else:
     print(user_list[1])
