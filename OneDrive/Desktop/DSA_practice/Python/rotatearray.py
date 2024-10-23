@@ -9,8 +9,12 @@ user_input = list(map(int,input("Enter list of element sepating by space by spac
 #rotatee(lis,k)
 k = int(input("Enter number K to rotate: "))
 
-
 n = len(user_input)
+
+#here we use it as
+# int we need to specify that k must me less than n so if k is greater than n then it won't work
+
+k = k % n
 rotate = user_input[ -k:] + user_input[ : -k ]
 for i in range(n):
     user_input[i] = rotate[i]
