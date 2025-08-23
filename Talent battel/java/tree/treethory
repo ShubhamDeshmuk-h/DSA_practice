@@ -1,0 +1,26 @@
+program to travesal throgh tree
+now we have three class
+node
+treetravesal
+main i/o 
+
+in node class we took three variables
+data
+left
+right
+then create constructor
+data = value or data
+left and right = null
+
+node will give us block for word it will create new node with this
+
+now we need to connect them so we use obj.lchild = new Node(10)
+obj.lchild.lchild.rchild = new Node(20);
+
+
+pre
+if node == null
+return;
+System.out.print(node.data+" ");
+pre(l.child)
+pre(r.child)

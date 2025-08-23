@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class secondprob{
+    public static void main(String args[]){
+        num1 = [];
+        num2 = [];
+        Scanner obj = new Scanner(System.in);
+
+        
+    }
+}

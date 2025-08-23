@@ -1,0 +1,14 @@
+what are thing we need to consider while working on this problem
+
+get input of x andn 
+
+traverse while(x!=0)
+digit seperate
+add neednow digit using mode
+
+
+Type conversion is automatic
+Type casting is manual done by developer
+
+why system didn't convert system will ignore it if there is data loss
+
